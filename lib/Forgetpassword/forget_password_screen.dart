@@ -19,11 +19,11 @@ class _ForgetPasswordState extends State<ForgetPassword>
   final TextEditingController _forgetPassTextEdtingController =
       TextEditingController(text: '');
 
-  @override
-  void dispose() {
-    _animationController.dispose();
-    super.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   _animationController.dispose();
+  //   super.dispose();
+  // }
 
   void initState() {
     _animationController =
